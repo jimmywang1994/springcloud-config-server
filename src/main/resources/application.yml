@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-cRefreshEndpointloud-config-server
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+          uri: https://gitee.com/wangjimmy/config-server
+          search-paths: dev
+server:
+  port: 8900
